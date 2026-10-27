@@ -1,0 +1,5 @@
+:HL["/propuestas/elitewagen/a/_next/static/chunks/20rcl46lryktc.css","style"]
+:HC["/",""]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"creditos","h":96,"c":"$Q2"}]]
+0:{"b":"vPCU5zSJgwNFLo8yFrw9x","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

@@ -1,0 +1,5 @@
+:HL["/propuestas/csm-marbella/a/_next/static/chunks/20rcl46lryktc.css","style"]
+:HC["/",""]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"creditos","h":96,"c":"$Q2"}]]
+0:{"b":"ySX3u4BkAh9XbIeGg9Jwp","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

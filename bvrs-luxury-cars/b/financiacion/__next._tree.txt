@@ -1,0 +1,5 @@
+:HL["/propuestas/bvrs-luxury-cars/b/_next/static/chunks/20rcl46lryktc.css","style"]
+:HC["/",""]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"financiacion","h":96,"c":"$Q2"}]]
+0:{"b":"OMb8FC7RE1jfHfXbLS_X5","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

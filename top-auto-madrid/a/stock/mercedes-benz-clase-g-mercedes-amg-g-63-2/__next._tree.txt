@@ -1,0 +1,6 @@
+:HL["/propuestas/top-auto-madrid/a/_next/static/chunks/20rcl46lryktc.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"mercedes-benz-clase-g-mercedes-amg-g-63-2","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"y1wITS7P2LxgDI4en-NcU","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

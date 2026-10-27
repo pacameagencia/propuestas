@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Levore Collection · Tu web en dos versiones</title>
+<meta name="description" content="Propuesta de web para Levore Collection en dos versiones, con sus coches y sus datos.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="a/favicon.ico">
+<style>
+  @font-face{font-family:Geist Variable;font-style:normal;font-display:swap;font-weight:100 900;src:url(a/_next/static/media/geist-latin-wght-normal.20f3xrkj613ah.woff2)format("woff2-variations");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+304,U+308,U+329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:Newsreader Variable;font-style:normal;font-display:swap;font-weight:200 800;src:url(a/_next/static/media/newsreader-latin-opsz-normal.0dc79pquxokce.woff2)format("woff2-variations");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+304,U+308,U+329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:Newsreader Variable;font-style:italic;font-display:swap;font-weight:200 800;src:url(a/_next/static/media/newsreader-latin-opsz-italic.11ae33ayisz--.woff2)format("woff2-variations");unicode-range:U+??,U+131,U+152-153,U+2BB-2BC,U+2C6,U+2DA,U+2DC,U+304,U+308,U+329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  
+  :root {
+    --bc1: #0c0c0c;
+    --bc2: #161616;
+    --bc3: #410306;
+    --bc5: #f2f1ed;
+    --muted: rgba(242, 241, 237, 0.6);
+    --line: rgba(242, 241, 237, 0.12);
+    --ease: cubic-bezier(0.43, 0.195, 0.02, 1);
+    --serif: "Newsreader Variable", Georgia, serif;
+    --sans: "Geist Variable", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bc1); color: var(--bc5); }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--bc1);
+    font-family: var(--sans);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+  .muted { color: var(--muted); }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px;
+  }
+  @media (min-width: 700px) { header { padding: 32px; } }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .brand svg { width: 26px; height: 22px; fill: var(--bc5); }
+
+  .intro {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 6vh 16px 7vh;
+    text-align: center;
+  }
+  h1 {
+    margin: 16px 0 24px;
+    font-family: var(--serif);
+    font-weight: 200;
+    font-size: clamp(44px, 8vw, 112px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  h1 em { font-style: italic; }
+  .intro p.lead {
+    max-width: 560px;
+    margin: 0 auto;
+    color: var(--muted);
+    text-wrap: balance;
+  }
+
+  .cards {
+    display: grid;
+    gap: 16px;
+    padding: 0 16px 10vh;
+  }
+  @media (min-width: 1000px) {
+    .cards { grid-template-columns: 1fr 1fr; gap: 32px; padding: 0 32px 12vh; }
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 16px 28px;
+    border: 1px solid var(--line);
+    background: var(--bc2);
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: rise 1.4s var(--ease) forwards;
+  }
+  .card:nth-child(2) { animation-delay: 0.15s; }
+  @media (min-width: 700px) { .card { padding: 20px 20px 36px; } }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+  .shots {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: var(--bc1);
+  }
+  .shots img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.9s var(--ease), transform 1.6s var(--ease);
+  }
+  .shots img + img { opacity: 0; transform: scale(1.04); }
+  .card:hover .shots img:first-child,
+  .card:focus-visible .shots img:first-child { opacity: 0; transform: scale(1.04); }
+  .card:hover .shots img + img,
+  .card:focus-visible .shots img + img { opacity: 1; transform: none; }
+  .letter {
+    position: absolute;
+    left: 16px;
+    bottom: 8px;
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 200;
+    font-size: clamp(72px, 10vw, 140px);
+    line-height: 1;
+    color: var(--bc5);
+    text-shadow: 0 0.05em 0.4em rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+  .card-body { display: flex; flex-direction: column; gap: 16px; padding-inline: 4px; }
+  .card h2 {
+    margin: 0;
+    font-family: var(--serif);
+    font-weight: 200;
+    font-size: clamp(32px, 3.6vw, 52px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+  .card ul { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+  .card li {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    gap: 8px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--muted);
+  }
+  .card li span { font-size: 10px; font-weight: 600; letter-spacing: 0.2em; padding-top: 4px; }
+  .go {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    align-self: flex-start;
+    padding: 16px 32px;
+    border: 1px solid rgba(242, 241, 237, 0.2);
+    transition: background 0.5s var(--ease), color 0.5s var(--ease);
+  }
+  .card:hover .go { background: var(--bc5); color: var(--bc1); }
+  .go svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.5; }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 24px 16px 32px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 12px;
+  }
+  @media (min-width: 700px) { footer { padding: 24px 32px 32px; } }
+  @media (prefers-reduced-motion: reduce) {
+    .card { animation: none; opacity: 1; transform: none; }
+    .shots img { transition: none; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="./" aria-label="Levore Collection">
+      <span class="label">LEVORE</span>
+    </a>
+    <span class="label muted">Propuesta de web</span>
+  </header>
+
+  <section class="intro">
+    <p class="label muted">Para Levore Collection</p>
+    <h1>Tu Web,<br><em>En Dos Versiones</em></h1>
+    <p class="lead">La he montado con 10 de los coches que tienes ahora en tu web y con tus datos de contacto. Ábrela en el móvil, baja despacio y dime con cuál te quedas.</p>
+  </section>
+
+  <main class="cards">
+    <a class="card" href="a/">
+      <div class="shots">
+        <img src="https://wsrv.nl/?url=https%3A%2F%2Fwww.levorecollection.com%2Fwp-content%2Fuploads%2F2026%2F07%2F2022-McLaren-Speedtail-levore-collection.jpg&w=1280&output=webp&q=78&we" alt="Propuesta A: portada con el McLaren Speedtail" width="1280" height="800">
+        <img src="https://wsrv.nl/?url=https%3A%2F%2Fwww.levorecollection.com%2Fwp-content%2Fuploads%2F2026%2F07%2F2008-Bugatti-Veyron-levore-collection.jpg&w=1280&output=webp&q=78&we" alt="Propuesta A: Bugatti Veyron en la cinta del stock" width="1280" height="800" loading="lazy">
+        <span class="letter" aria-hidden="true">A</span>
+      </div>
+      <div class="card-body">
+        <p class="label muted">Propuesta A</p>
+        <h2>La Cinta Del Stock</h2>
+        <ul>
+          <li><span>01</span>La foto de tu McLaren Speedtail se recoge y se convierte en la primera ficha del stock.</li>
+          <li><span>02</span>Tus coches pasan de lado al bajar, con precio, año, kilómetros y potencia.</li>
+          <li><span>03</span>Ficha de cada coche limpia y elegante, con galería, ficha técnica y botón de WhatsApp.</li>
+        </ul>
+        <span class="go">Ver propuesta A <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span>
+      </div>
+    </a>
+
+    <a class="card" href="b/">
+      <div class="shots">
+        <img src="https://wsrv.nl/?url=https%3A%2F%2Fwww.levorecollection.com%2Fwp-content%2Fuploads%2F2026%2F07%2F2016-pagani-huayra-levore-collection.jpg&w=1280&output=webp&q=78&we" alt="Propuesta B: Pagani Huayra" width="1280" height="800">
+        <img src="https://wsrv.nl/?url=https%3A%2F%2Fwww.levorecollection.com%2Fwp-content%2Fuploads%2F2026%2F07%2F2019-Koenigsegg-Regera-levore-collection.jpg&w=1280&output=webp&q=78&we" alt="Propuesta B: ficha del Koenigsegg Regera" width="1280" height="800" loading="lazy">
+        <span class="letter" aria-hidden="true">B</span>
+      </div>
+      <div class="card-body">
+        <p class="label muted">Propuesta B</p>
+        <h2>Zoom De Cine Y Ficha Ampliada</h2>
+        <ul>
+          <li><span>01</span>La cámara entra en el coche de portada y la frase aparece sobre un cristal.</li>
+          <li><span>02</span>Cada coche se abre a pantalla completa con sus cifras. como el Koenigsegg Jesko y sus 1.600 CV.</li>
+          <li><span>03</span>Galería, equipamiento y una barra para pedir información siempre a mano.</li>
+        </ul>
+        <span class="go">Ver propuesta B <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5"/></svg></span>
+      </div>
+    </a>
+  </main>
+
+  <footer>
+    <span>Una propuesta de Pacame Agencia para Levore Collection. No es su web oficial.</span>
+    <span>Coches, fotos y datos sacados de levorecollection.com</span>
+  </footer>
+</body>
+</html>
