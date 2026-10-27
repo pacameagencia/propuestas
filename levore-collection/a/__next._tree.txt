@@ -1,4 +1,4 @@
 :HL["/propuestas/levore-collection/a/_next/static/chunks/20rcl46lryktc.css","style"]
 :HC["/",""]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"F02GWyJkR2BPq_cqJah9g","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"ykEgNa4JFsCWrunI3_HGz","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

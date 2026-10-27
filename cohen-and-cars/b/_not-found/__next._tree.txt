@@ -1,4 +1,4 @@
 :HL["/propuestas/cohen-and-cars/b/_next/static/chunks/20rcl46lryktc.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"zlbqDyYRss-Lah7cWBShg","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"g8BxnLjoFEBiJCuvsYLQZ","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
