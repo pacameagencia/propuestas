@@ -1,5 +1,5 @@
-:HL["/propuestas/stradale/b/_next/static/chunks/20rcl46lryktc.css","style"]
+:HL["/propuestas/stradale/b/_next/static/chunks/3voow_m_j62ll.css","style"]
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"privacidad","h":96,"c":"$Q2"}]]
-0:{"b":"VmTqhSNl5WRU9a5-nwucz","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"Xj2arqPlCH-aAUW8hZLoj","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

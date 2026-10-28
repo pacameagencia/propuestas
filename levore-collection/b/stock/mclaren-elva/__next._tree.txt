@@ -1,6 +1,6 @@
-:HL["/propuestas/levore-collection/b/_next/static/chunks/20rcl46lryktc.css","style"]
+:HL["/propuestas/levore-collection/b/_next/static/chunks/3voow_m_j62ll.css","style"]
 :HC["/",""]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"mclaren-elva","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
-0:{"b":"pYgXP_4KL-iI1pjTQ-77P","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"UqlGc5HbGH0sgfI4TFdhi","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

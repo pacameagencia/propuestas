@@ -1,5 +1,5 @@
-:HL["/propuestas/bvrs-luxury-cars/b/_next/static/chunks/20rcl46lryktc.css","style"]
+:HL["/propuestas/bvrs-luxury-cars/b/_next/static/chunks/3voow_m_j62ll.css","style"]
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"stock","h":96,"c":"$Q2"}]]
-0:{"b":"VQ5GwZcFlB5oLlcvg9Pgm","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"o7sZSIjUdBbYY1C6hkk97","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

@@ -1,5 +1,5 @@
-:HL["/propuestas/elitewagen/a/_next/static/chunks/20rcl46lryktc.css","style"]
+:HL["/propuestas/elitewagen/a/_next/static/chunks/3voow_m_j62ll.css","style"]
 :HC["/",""]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"creditos","h":96,"c":"$Q2"}]]
-0:{"b":"mhiexwVQlJnW3b4gedpgK","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"z3DHa_Z4FA05YMLnLMB3e","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

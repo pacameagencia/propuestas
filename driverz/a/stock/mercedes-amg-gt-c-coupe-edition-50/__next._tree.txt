@@ -1,6 +1,6 @@
-:HL["/propuestas/driverz/a/_next/static/chunks/20rcl46lryktc.css","style"]
+:HL["/propuestas/driverz/a/_next/static/chunks/3voow_m_j62ll.css","style"]
 :HC["/",""]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"mercedes-amg-gt-c-coupe-edition-50","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
-0:{"b":"_GSXmOMeqwq1aI-AN_i_z","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"mUzclroTAbd_K0gY06U3i","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
