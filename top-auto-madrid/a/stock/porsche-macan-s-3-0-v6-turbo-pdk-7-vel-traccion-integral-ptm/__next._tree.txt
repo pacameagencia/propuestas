@@ -1,0 +1,6 @@
+:HL["/propuestas/top-auto-madrid/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"porsche-macan-s-3-0-v6-turbo-pdk-7-vel-traccion-integral-ptm","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"K8DVXCawKjRRARlF0SRGx","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

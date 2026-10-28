@@ -1,4 +1,4 @@
 :HL["/propuestas/top-auto-madrid/a/_next/static/chunks/3voow_m_j62ll.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"5MuWh3E-l6KU5agTbQo0a","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"K8DVXCawKjRRARlF0SRGx","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
