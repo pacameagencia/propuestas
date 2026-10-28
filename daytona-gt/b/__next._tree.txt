@@ -1,4 +1,4 @@
 :HL["/propuestas/daytona-gt/b/_next/static/chunks/3voow_m_j62ll.css","style"]
 :HC["/",""]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"iEqYj7JLaE8qPtT6NUMgh","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"yi-Tmqb2MlseL977dC1aq","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
