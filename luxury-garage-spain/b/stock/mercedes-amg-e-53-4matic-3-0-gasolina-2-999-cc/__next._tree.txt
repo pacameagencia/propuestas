@@ -1,0 +1,6 @@
+:HL["/propuestas/luxury-garage-spain/b/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"mercedes-amg-e-53-4matic-3-0-gasolina-2-999-cc","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"vsqgWMoY576yj3nMTX-Cq","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

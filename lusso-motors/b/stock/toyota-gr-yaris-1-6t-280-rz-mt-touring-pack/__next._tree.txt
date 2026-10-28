@@ -1,0 +1,6 @@
+:HL["/propuestas/lusso-motors/b/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"toyota-gr-yaris-1-6t-280-rz-mt-touring-pack","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"pIYf7NCJYDKQiM1qFD5gS","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

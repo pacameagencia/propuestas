@@ -1,0 +1,6 @@
+:HL["/propuestas/beniautos-premium-cars/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"land-rover-discovery-hse-luxury-3-0-si6-siete-plazas","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"nkn7j4x5IHugiE3naGzfy","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

@@ -1,0 +1,6 @@
+:HL["/propuestas/exotic-luxury-cars/b/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"ford-kuga-1-5-tdci-88-kw-4x2-ass-titanium","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"irBEo4ZV5TX7hZtMAvogZ","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

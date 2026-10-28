@@ -1,0 +1,6 @@
+:HL["/propuestas/second-cars-luxury/b/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"bmw-serie-8-m850i-cabrio-xdrive-4-395-cc-v8-530-cv-2","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"flSq3QS33ZylWAq3mA-ry","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
