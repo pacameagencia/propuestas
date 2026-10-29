@@ -77,6 +77,9 @@
     text-wrap: balance;
   }
 
+  .jump { display: inline-block; margin-top: 28px; padding: 12px 20px; border: 1px solid var(--line); text-decoration: none; color: var(--bc5); }
+  .jump:hover { background: var(--bc5); color: var(--bc1); }
+  html { scroll-behavior: smooth; }
   .cards {
     display: grid;
     gap: 16px;
@@ -163,6 +166,86 @@
   .card:hover .go { background: var(--bc5); color: var(--bc1); }
   .go svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.5; }
 
+  .offer {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 10vh 16px 12vh;
+    border-top: 1px solid var(--line);
+  }
+  @media (min-width: 700px) { .offer { padding: 12vh 32px 14vh; } }
+  .offer-head { display: grid; gap: 24px; align-items: end; margin-bottom: 48px; }
+  @media (min-width: 1000px) { .offer-head { grid-template-columns: 1.3fr 1fr; gap: 64px; } }
+  .offer h2 {
+    margin: 12px 0 0;
+    font-family: var(--serif);
+    font-weight: 200;
+    font-size: clamp(40px, 6vw, 84px);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+  }
+  .offer h2 em { font-style: italic; }
+  .price {
+    padding: 24px;
+    border: 1px solid var(--line);
+    background: var(--bc2);
+  }
+  .price b {
+    display: block;
+    font-family: var(--serif);
+    font-weight: 200;
+    font-size: clamp(56px, 7vw, 96px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .price p { margin: 12px 0 0; color: var(--muted); }
+  .incl { display: grid; gap: 0 48px; border-top: 1px solid var(--line); margin: 0; padding: 0; list-style: none; }
+  @media (min-width: 700px) { .incl { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1000px) { .incl { grid-template-columns: 1fr 1fr 1fr; } }
+  .incl li { padding: 20px 0; border-bottom: 1px solid var(--line); }
+  .incl li strong {
+    display: block;
+    margin-bottom: 6px;
+    font-family: var(--serif);
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.15;
+  }
+  .incl li span { color: var(--muted); }
+  .steps { display: grid; gap: 16px; margin: 56px 0 0; padding: 0; list-style: none; counter-reset: s; }
+  @media (min-width: 1000px) { .steps { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
+  .steps li { counter-increment: s; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); }
+  .steps li::before {
+    content: "0" counter(s);
+    display: block;
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: var(--bc5);
+  }
+  .talk {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 56px;
+    padding: 28px 24px;
+    background: var(--bc2);
+    border: 1px solid var(--line);
+  }
+  .talk h3 { margin: 0 0 6px; font-family: var(--serif); font-weight: 200; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.1; }
+  .talk p { margin: 0; color: var(--muted); max-width: 520px; }
+  .talk a {
+    display: inline-flex;
+    padding: 16px 28px;
+    background: var(--bc5);
+    color: var(--bc1);
+    text-decoration: none;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+  }
+
   footer {
     display: flex;
     flex-wrap: wrap;
@@ -192,6 +275,7 @@
     <p class="label muted">Para CSM Marbella Premium Cars</p>
     <h1>Tu Web,<br><em>En Dos Versiones</em></h1>
     <p class="lead">La he montado con 40 de los coches que tienes ahora en tu web y con tus datos de contacto. Ábrela en el móvil, baja despacio y dime con cuál te quedas.</p>
+    <a class="jump label" href="#offer-title">Qué incluye y precio ↓</a>
   </section>
 
   <main class="cards">
@@ -231,6 +315,39 @@
       </div>
     </a>
   </main>
+
+  <section class="offer" aria-labelledby="offer-title">
+    <div class="offer-head">
+      <div>
+        <p class="label muted">Qué incluye</p>
+        <h2 id="offer-title">Tu web terminada,<br><em>todo incluido</em></h2>
+      </div>
+      <div class="price">
+        <b>1.990 €</b>
+        <p>La versión que elijas, terminada y publicada, con todo lo de abajo y un año de mantenimiento.</p>
+      </div>
+    </div>
+    <ul class="incl">
+      <li><strong>La versión que elijas</strong><span>La A o la B, terminada con tu logo, tus fotos y tus textos.</span></li>
+      <li><strong>Dominio y hosting</strong><span>Publicada en tu dominio, alojada por nosotros y con conexión segura.</span></li>
+      <li><strong>Panel para tu stock</strong><span>Subes un coche, cambias el precio o lo marcas como vendido tú mismo, sin tocar código.</span></li>
+      <li><strong>O te lo subimos nosotros</strong><span>Si lo prefieres, nos mandas el coche por WhatsApp y lo subimos.</span></li>
+      <li><strong>Lista para Google y el móvil</strong><span>Cada coche con su página preparada para buscadores, rápida y pensada para verse en el móvil.</span></li>
+      <li><strong>Un año de mantenimiento</strong><span>Cambios, ajustes y soporte durante el primer año.</span></li>
+    </ul>
+    <ol class="steps">
+      <li>Eliges la versión A o la B, o nos dices qué te gusta de cada una.</li>
+      <li>La terminamos contigo: logo, fotos, textos y lo que quieras cambiar.</li>
+      <li>La publicamos en tu dominio y te enseñamos a usar el panel.</li>
+    </ol>
+    <div class="talk">
+      <div>
+        <h3>¿Lo hablamos?</h3>
+        <p>Contesta al WhatsApp por el que te llegó este enlace o escríbenos y lo vemos con calma.</p>
+      </div>
+      <a href="mailto:hola@pacameagencia.com?subject=Web%20para%20CSM%20Marbella%20Premium%20Cars">hola@pacameagencia.com</a>
+    </div>
+  </section>
 
   <footer>
     <span>Una propuesta de Pacame Agencia para CSM Marbella Premium Cars. No es su web oficial.</span>
