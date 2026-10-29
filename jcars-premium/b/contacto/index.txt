@@ -1,0 +1,42 @@
+1:"$Sreact.fragment"
+2:"/propuestas/jcars-premium/b/_next/static/chunks/2wf1ralfn8cd7.js"
+3:"/propuestas/jcars-premium/b/_next/static/chunks/3deou5j0n9_kj.js"
+4:"/propuestas/jcars-premium/b/_next/static/chunks/3eqnalws8qi3s.js"
+5:I[49046,["$2","$3","$4"],"SmoothScroll"]
+6:I[90636,["$2","$3","$4"],"SiteHeader"]
+7:I[67006,["$2","$3","$4"],"MenuOverlay"]
+8:I[72212,["$2","$3","$4"],"PageShell"]
+9:I[39756,["$2","$3","$4"],"default"]
+a:I[37457,["$2","$3","$4"],"default"]
+b:I[41637,["$2","$3","$4"],"TLink"]
+c:I[87483,["$2","$3","$4"],"EntryGate"]
+d:I[44209,["$2","$3","$4"],"ScrollProgress"]
+e:I[44209,["$2","$3","$4"],"WhatsAppFab"]
+f:I[44209,["$2","$3","$4"],"CursorBubble"]
+10:I[44209,["$2","$3","$4"],"ShimmerWatcher"]
+14:"/propuestas/jcars-premium/b/_next/static/chunks/1k5r1ppu1l_ee.js"
+15:I[51659,["$2","$3","$4","$14"],"ContactHero"]
+16:"ContactFormSection"
+17:I[55359,["$2","$3","$4","$14"],"$16"]
+18:I[72493,["$2","$3","$4","$14"],"Process"]
+19:"SoldAndStockBands"
+1a:I[14537,["$2","$3","$4","$14"],"$19"]
+1b:I[7730,["$2","$3","$4","$14"],"SiteFooter"]
+1c:I[97367,["$2","$3","$4"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+1f:"ViewportBoundary"
+20:I[97367,["$2","$3","$4"],"$1f"]
+22:"MetadataBoundary"
+23:I[97367,["$2","$3","$4"],"$22"]
+25:I[68027,["$2","$3","$4"],"default",1]
+:HL["/propuestas/jcars-premium/b/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+12:X
+13:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","main",null,{"id":"contenido","children":[["$","$L15",null,{}],["$","$L17",null,{}],["$","$L18",null,{"title":"Un Proceso Cuidado\nPensado Para Ti","image":"process-polish","steps":[{"title":"Te Escuchamos","text":"Revisamos tu consulta y te llamamos para entender qué buscas, para cuándo y con qué presupuesto."},{"title":"Te Enseñamos Opciones","text":"Te mandamos fotos y vídeo de los coches que encajan. Si no lo tenemos, lo buscamos."},{"title":"Lo Cerramos Juntos","text":"Financiación hasta 10 años, entrega transferido a tu nombre y 12 meses de garantía."}]}],["$","$L1a",null,{}],["$","$L1b",null,{}]]}],[["$","script","script-0",{"src":"/propuestas/jcars-premium/b/_next/static/chunks/1k5r1ppu1l_ee.js","async":true,"nonce":"$undefined"}]],["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}],"p":false,"v":null}}]]
+11:[["children",{"s":"contacto","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$12"},"c":"$Q13"}]]
+0:{"P":null,"c":["","contacto",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/propuestas/jcars-premium/b/_next/static/chunks/3voow_m_j62ll.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/propuestas/jcars-premium/b/_next/static/chunks/2wf1ralfn8cd7.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/propuestas/jcars-premium/b/_next/static/chunks/3deou5j0n9_kj.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/propuestas/jcars-premium/b/_next/static/chunks/3eqnalws8qi3s.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"es","style":{"--bc1":"#0c0c0c","--bc2":"#161616","--bc3":"#410306","--bc4":"#c5a064","--bc5":"#f2f1ed"},"suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){var d=document.documentElement;d.classList.add('js');var s='open';try{if(sessionStorage.getItem('gate-entered')==='1')s='skip'}catch(e){}d.dataset.gate=s;if(s==='skip')d.dataset.intro='done';d.dataset.menu='closed'})();"}}],["$","link",null,{"rel":"preconnect","href":"https://wsrv.nl"}]]}],["$","body",null,{"children":[["$","a",null,{"href":"#contenido","className":"skip-link","children":"Saltar al contenido"}],["$","$L5",null,{"children":[["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"id":"contenido","className":"not-found","children":["$","div",null,{"children":[["$","p",null,{"className":"t-label c-55","children":"Error 404"}],["$","h1",null,{"className":"t-h1","children":"Este Coche Ya No Está Aquí"}],["$","p",null,{"className":"t-body c-80","children":"Puede que se haya vendido o que el enlace no sea correcto. Echa un vistazo al stock actual."}],["$","$Lb",null,{"href":"/stock","className":"btn","variant":"$undefined","aria-label":"$undefined","children":[["$","span",null,{"children":[["$","span",null,{"className":"sr-only","children":"Ver el stock"}],[["$","span","0",{"aria-hidden":"true","style":{"--i":0},"children":"V"}],["$","span","1",{"aria-hidden":"true","style":{"--i":1},"children":"e"}],["$","span","2",{"aria-hidden":"true","style":{"--i":2},"children":"r"}],["$","span","3",{"aria-hidden":"true","style":{"--i":3},"children":" "}],["$","span","4",{"aria-hidden":"true","style":{"--i":4},"children":"e"}],["$","span","5",{"aria-hidden":"true","style":{"--i":5},"children":"l"}],["$","span","6",{"aria-hidden":"true","style":{"--i":6},"children":" "}],["$","span","7",{"aria-hidden":"true","style":{"--i":7},"children":"s"}],["$","span","8",{"aria-hidden":"true","style":{"--i":8},"children":"t"}],["$","span","9",{"aria-hidden":"true","style":{"--i":9},"children":"o"}],["$","span","10",{"aria-hidden":"true","style":{"--i":10},"children":"c"}],["$","span","11",{"aria-hidden":"true","style":{"--i":11},"children":"k"}]]]}],["$","i",null,{"aria-hidden":"true"}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$Lc",null,{}],["$","$Ld",null,{}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}]]}]]}]]}]]}],"p":false,"v":null},"c":"$Q11"},"h":{"r":["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","$L23",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":"$L24"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$25",[["$","link","0",{"rel":"stylesheet","href":"/propuestas/jcars-premium/b/_next/static/chunks/3voow_m_j62ll.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"DS7jBLgdHm-2GcdQjChGR"}
+12:C
+21:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}],["$","meta","3",{"name":"color-scheme","content":"dark"}]]
+26:I[27201,["$2","$3","$4"],"IconMark"]
+1e:null
+24:[["$","title","0",{"children":"Contacto · JCars Premium"}],["$","meta","1",{"name":"description","content":"Llama, escribe por WhatsApp o visita JCars Premium."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","meta","3",{"property":"og:title","content":"Contacto · JCars Premium"}],["$","meta","4",{"property":"og:description","content":"Llama, escribe por WhatsApp o visita JCars Premium."}],["$","meta","5",{"property":"og:site_name","content":"JCars Premium"}],["$","meta","6",{"property":"og:locale","content":"es_ES"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Contacto · JCars Premium"}],["$","meta","10",{"name":"twitter:description","content":"Llama, escribe por WhatsApp o visita JCars Premium."}],["$","link","11",{"rel":"icon","href":"/propuestas/jcars-premium/b/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L26","12",{}]]

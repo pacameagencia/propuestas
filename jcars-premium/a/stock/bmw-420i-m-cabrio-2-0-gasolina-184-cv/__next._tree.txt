@@ -1,0 +1,6 @@
+:HL["/propuestas/jcars-premium/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"bmw-420i-m-cabrio-2-0-gasolina-184-cv","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"mMThOb5lF63PUng30uBG5","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
