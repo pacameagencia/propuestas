@@ -1,0 +1,4 @@
+:HL["/propuestas/bioscars/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"pb9HFaB39GfWw3RM7v_oJ","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

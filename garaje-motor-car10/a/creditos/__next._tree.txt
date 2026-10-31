@@ -1,0 +1,5 @@
+:HL["/propuestas/garaje-motor-car10/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"creditos","h":96,"c":"$Q2"}]]
+0:{"b":"LJcdAtC6HNqfeVaP2LpK6","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

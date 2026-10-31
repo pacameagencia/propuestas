@@ -1,0 +1,6 @@
+:HL["/propuestas/bioscars/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"peugeot-3008-1-6hdi-blue-lion-style-cmp-115","s":[]},"h":65632,"c":"$Q3"}]]
+1:[["children",{"s":"stock","h":131168,"c":"$Q2"}]]
+0:{"b":"pb9HFaB39GfWw3RM7v_oJ","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

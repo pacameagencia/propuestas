@@ -1,0 +1,5 @@
+:HL["/propuestas/mia-cher-cars/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+:HC["/",""]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"financiacion","h":96,"c":"$Q2"}]]
+0:{"b":"kWCxoFt97OS5IoUsjHMZa","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

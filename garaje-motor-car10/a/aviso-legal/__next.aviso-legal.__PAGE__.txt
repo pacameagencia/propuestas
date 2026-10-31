@@ -1,0 +1,45 @@
+1:"$Sreact.fragment"
+2:"/propuestas/garaje-motor-car10/a/_next/static/chunks/2zfi2qw1vu31f.js"
+3:"/propuestas/garaje-motor-car10/a/_next/static/chunks/3deou5j0n9_kj.js"
+4:"/propuestas/garaje-motor-car10/a/_next/static/chunks/0dcstl6momxh-.js"
+5:I[49046,["$2","$3","$4"],"SmoothScroll"]
+6:I[90636,["$2","$3","$4"],"SiteHeader"]
+7:I[67006,["$2","$3","$4"],"MenuOverlay"]
+8:I[72212,["$2","$3","$4"],"PageShell"]
+9:I[39756,["$2","$3","$4"],"default"]
+a:I[37457,["$2","$3","$4"],"default"]
+b:I[41637,["$2","$3","$4"],"TLink"]
+c:I[87483,["$2","$3","$4"],"EntryGate"]
+d:I[44209,["$2","$3","$4"],"ScrollProgress"]
+e:I[44209,["$2","$3","$4"],"WhatsAppFab"]
+f:I[44209,["$2","$3","$4"],"CursorBubble"]
+10:I[44209,["$2","$3","$4"],"ShimmerWatcher"]
+17:"/propuestas/garaje-motor-car10/a/_next/static/chunks/0ry-mwfoj5hn6.js"
+18:I[90287,["$2","$3","$4","$17"],"WordsBlur"]
+1e:"ViewportBoundary"
+1f:I[97367,["$2","$3","$4"],"$1e"]
+20:"MetadataBoundary"
+21:I[97367,["$2","$3","$4"],"$20"]
+22:"$Sreact.suspense"
+23:I[27201,["$2","$3","$4"],"IconMark"]
+:HL["/propuestas/garaje-motor-car10/a/_next/static/chunks/3voow_m_j62ll.css","style"]
+12:X
+15:X
+15:C
+16:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","main",null,{"id":"contenido","className":"legal","children":["$","div",null,{"className":"grid","children":[["$","header",null,{"className":"legal-head","children":[["$","$L18",null,{"as":"h1","className":"t-h1","text":"Aviso legal","play":"intro"}],null]}],["$","div",null,{"className":"legal-body t-body","children":[["$","p",null,{"children":["En cumplimiento de la Ley 34/2002, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de que este sitio web pertenece a ",["$","strong",null,{"children":"Garaje Motor Car10"}],", ","","domicilio en ","Calle Doctor Enrique Martínez, 3, 30880 Águilas"," (Murcia)","",".",""," Teléfono:"," ","+34 654 89 53 95","."]}],["$","h2",null,{"children":"Condiciones de uso"}],["$","p",null,{"children":"El acceso a esta web es gratuito e implica la aceptación de estas condiciones. Los precios, fotografías y características de los vehículos se ofrecen a título informativo y pueden contener errores o cambiar sin previo aviso. La información definitiva es la que figure en el contrato de compraventa."}],["$","h2",null,{"children":"Propiedad intelectual"}],["$","p",null,{"children":["Los contenidos de la web (textos, imágenes, diseño y código) pertenecen a ","Garaje Motor Car10"," o a sus proveedores. Las marcas y modelos de vehículos citados pertenecen a sus respectivos fabricantes y se mencionan solo para identificar los vehículos a la venta."]}],"$L19","$L1a"]}]]}]}],["$L1b"],"$L1c"]}],"p":"$@1d","v":null,"s":"$12"}}]]
+13:[["children",{"s":"aviso-legal","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@14","v":"$15","s":"$12"},"c":"$Q16"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/propuestas/garaje-motor-car10/a/_next/static/chunks/3voow_m_j62ll.css","precedence":"next"}],["$","script","script-0",{"src":"/propuestas/garaje-motor-car10/a/_next/static/chunks/2zfi2qw1vu31f.js","async":true}],["$","script","script-1",{"src":"/propuestas/garaje-motor-car10/a/_next/static/chunks/3deou5j0n9_kj.js","async":true}],["$","script","script-2",{"src":"/propuestas/garaje-motor-car10/a/_next/static/chunks/0dcstl6momxh-.js","async":true}]],["$","html",null,{"lang":"es","style":{"--bc1":"#0c0c0c","--bc2":"#161616","--bc3":"#410306","--bc4":"#c5a064","--bc5":"#f2f1ed"},"suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){var d=document.documentElement;d.classList.add('js');var s='open';try{if(sessionStorage.getItem('gate-entered')==='1')s='skip'}catch(e){}d.dataset.gate=s;if(s==='skip')d.dataset.intro='done';d.dataset.menu='closed'})();"}}],["$","link",null,{"rel":"preconnect","href":"https://wsrv.nl"}]]}],["$","body",null,{"children":[["$","a",null,{"href":"#contenido","className":"skip-link","children":"Saltar al contenido"}],["$","$L5",null,{"children":[["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}],"notFound":[["$","main",null,{"id":"contenido","className":"not-found","children":["$","div",null,{"children":[["$","p",null,{"className":"t-label c-55","children":"Error 404"}],["$","h1",null,{"className":"t-h1","children":"Este Coche Ya No Está Aquí"}],["$","p",null,{"className":"t-body c-80","children":"Puede que se haya vendido o que el enlace no sea correcto. Echa un vistazo al stock actual."}],["$","$Lb",null,{"href":"/stock","className":"btn","children":[["$","span",null,{"children":[["$","span",null,{"className":"sr-only","children":"Ver el stock"}],[["$","span","0",{"aria-hidden":"true","style":{"--i":0},"children":"V"}],["$","span","1",{"aria-hidden":"true","style":{"--i":1},"children":"e"}],["$","span","2",{"aria-hidden":"true","style":{"--i":2},"children":"r"}],["$","span","3",{"aria-hidden":"true","style":{"--i":3},"children":" "}],["$","span","4",{"aria-hidden":"true","style":{"--i":4},"children":"e"}],["$","span","5",{"aria-hidden":"true","style":{"--i":5},"children":"l"}],["$","span","6",{"aria-hidden":"true","style":{"--i":6},"children":" "}],["$","span","7",{"aria-hidden":"true","style":{"--i":7},"children":"s"}],["$","span","8",{"aria-hidden":"true","style":{"--i":8},"children":"t"}],["$","span","9",{"aria-hidden":"true","style":{"--i":9},"children":"o"}],["$","span","10",{"aria-hidden":"true","style":{"--i":10},"children":"c"}],["$","span","11",{"aria-hidden":"true","style":{"--i":11},"children":"k"}]]]}],["$","i",null,{"aria-hidden":"true"}]]}]]}]}],[]]}]}],["$","$Lc",null,{}],["$","$Ld",null,{}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}]]}]]}]]}]]}],"p":"$@11","v":null,"s":"$12"},"c":"$Q13"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1f",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}],["$","meta","3",{"name":"color-scheme","content":"dark"}]]}],["$","$L21",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Aviso legal · Garaje Motor Car10"}],["$","meta","1",{"name":"description","content":"Compraventa de coches de ocasión en Águilas (Murcia), con garantía de 12 a 24 meses."}],["$","meta","2",{"name":"robots","content":"noindex"}],["$","meta","3",{"property":"og:title","content":"Aviso legal · Garaje Motor Car10"}],["$","meta","4",{"property":"og:description","content":"Compraventa de coches de ocasión en Águilas (Murcia), con garantía de 12 a 24 meses."}],["$","meta","5",{"property":"og:site_name","content":"Garaje Motor Car10"}],["$","meta","6",{"property":"og:locale","content":"es_ES"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Aviso legal · Garaje Motor Car10"}],["$","meta","10",{"name":"twitter:description","content":"Compraventa de coches de ocasión en Águilas (Murcia), con garantía de 12 a 24 meses."}],["$","link","11",{"rel":"icon","href":"/propuestas/garaje-motor-car10/a/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}],["$","$L23","12",{}]]}]}],null]}],null]}],"p":"$@24","v":null,"s":"$12"}},"a":"$@25","u":"$@26","b":"LJcdAtC6HNqfeVaP2LpK6"}
+27:I[97367,["$2","$3","$4"],"OutletBoundary"]
+19:["$","h2",null,{"children":"Legislación aplicable"}]
+1a:["$","p",null,{"children":"Estas condiciones se rigen por la legislación española."}]
+1b:["$","script","script-0",{"src":"/propuestas/garaje-motor-car10/a/_next/static/chunks/0ry-mwfoj5hn6.js","async":true}]
+1c:["$","$L27",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+12:300
+28:null
+26:true
+12:C
+25:0
+14:"$undefined"
+11:"$undefined"
+24:"$undefined"
+1d:"$undefined"
